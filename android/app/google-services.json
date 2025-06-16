@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1043770281441",
+    "project_id": "twofactorauth-bbac8",
+    "storage_bucket": "twofactorauth-bbac8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043770281441:android:ecc82630b9d07f2a9616a0",
+        "android_client_info": {
+          "package_name": "com.nowhsinFabiha.auth2fa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRceWbxcrLowa-znZNqsAvX5SxfPa-Ino"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
