@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 class OTPScreen extends StatelessWidget {
   final String verificationId;
   final TextEditingController otpController = TextEditingController();
 
-  OTPScreen({required this.verificationId});
+  OTPScreen({super.key, required this.verificationId});
 
   void verifyOTP(BuildContext context) async {
     final credential = PhoneAuthProvider.credential(
